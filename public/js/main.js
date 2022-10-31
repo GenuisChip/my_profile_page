@@ -103,7 +103,7 @@ $(document).ready(function () {
         .map(
           (v, i) =>
             `<div class= "home_mobile_div"> 
-    <img class="home_mobile_screen_shot" style="margin-left: 2.2rem" src="` +
+    <img class="home_mobile_screen_shot" style="margin-left: 12%" src="` +
             v.imageAssets +
             `"/>
             <h5>` +
