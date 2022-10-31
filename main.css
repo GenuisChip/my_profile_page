@@ -1,0 +1,148 @@
+*{
+     font-family: 'Anek Malayalam', sans-serif;
+     font-weight: 400;
+}
+.navbar{
+     border-radius: 10px;
+}
+#background-img{
+     background-repeat: no-repeat;
+     position:absolute;
+     width: 100%;
+     z-index: -1;
+     opacity: .2;
+     
+}
+
+.technology-key{
+     width: 100px;
+     max-width: 100px;
+     margin: 10px;
+     padding: 5px;
+     background-color: rgb(222, 231, 248);
+     border-radius: 10px;
+}
+.technology-value{
+     width:   auto ;
+     flex: none;
+     padding-top: 5px;
+     margin: 10px;
+     background-color: rgb(252, 252, 252);
+     border: 1px solid rgb(229, 240, 245);
+     border-radius: 10px;
+     cursor: default;
+}
+.technology-value:hover{
+     background-color: rgb(229, 245, 245);
+}
+.tech-icon{
+     width: 10px;
+     margin: 10px;
+     padding: 5px;
+}
+
+.black-bg-text{
+     width: auto;
+     background-color: black;
+     color:white;
+}
+.center {
+     margin: auto;
+     width: 50%;
+     padding: 10px;
+}
+
+
+.button{
+     color: black;
+     padding: 7px 20px;
+     margin: 5px;
+     background-color: white;
+     border: 1px rgb(147, 146, 146) solid;
+     border-radius: 10px;
+}
+.invert{
+     color: white;
+     background-color: black;
+}
+
+.button:hover{
+     background-color: rgb(232, 232, 232);
+     transform:scale(1.01)
+}
+
+.invert:hover{
+     background-color: rgb(46, 46, 46);
+     transform:scale(1.01)
+}
+
+.home_mobile_screen_shot{
+     height: 25rem;
+     margin: 0 auto;
+     border-radius: 10px;
+}
+.home_mobile_div{
+     max-width:20rem;
+     margin: 0 auto;  
+     padding: 20px;
+}
+
+.home_mobile_div:hover{
+     border-radius: 10px;
+     background-color: rgb(250, 254, 255);  
+     box-shadow: 0px 0px 1px 1px rgb(184, 217, 245);
+}
+
+.home_screenshots_container{
+     display: flex;
+}
+.home_mobile_screen_shot_label{
+     color: black;
+     padding: 1px 5px;
+     margin: 3px;
+     background-color: white;
+     border-radius: 5px;
+     cursor: default;
+     box-shadow: 0px 3px 6px 1px  rgba(217, 217, 217,.5);
+}
+.home_mobile_screen_shot_label:hover{
+     background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 1200px) {
+    
+     .center {
+          margin: auto;
+          width: 60%;
+          padding: 10px;
+     }
+   }
+
+@media only screen and (max-width: 1000px) {
+    
+     .center {
+          margin: auto;
+          width: 100%;
+          padding: 10px;
+     }
+   }
+
+
+@media only screen and (max-width: 400px) {
+
+     .tech-icon{
+          width: 10px;
+          margin: 10px;
+          display: none;
+     }
+     .technology-key{
+          background-color: rgb(0, 0, 0);
+          color: white;
+     }
+     .home_mobile_div{
+          border-radius: 10px;
+          background-color: rgb(250, 254, 255);  
+          box-shadow: 0px 0px 1px 1px rgb(184, 217, 245);
+     }
+     
+   }
