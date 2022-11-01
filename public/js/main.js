@@ -61,6 +61,19 @@ let list = [
     imageAssets: "public/assets/apps_screenshots/fruit_app.png",
     gitHubLink: "https://github.com/GenuisChip/SwiftUI-Fruit-App",
   },
+  {
+    id: 6,
+    projectType: "Web",
+    imagesUrl: [],
+    name: "Natours",
+    shortDescription: "Natours website landpage pure HTML CSS SASS",
+    technologies: ["HTML", "CSS", "SASS"],
+    imageAssets: "public/assets/apps_screenshots/natours_website.png",
+    gitHubLink:
+      "https://github.com/GenuisChip/natours-website-pure-html-css-sass",
+    onlineDemoUrl:
+      "https://genuischip.github.io/natours-website-pure-html-css-sass/",
+  },
 ];
 
 let technologies = {
@@ -143,6 +156,58 @@ $(document).ready(function () {
             </div>
             
     </div>`
+        )
+        .join(" ") +
+      "</div>"
+  );
+
+  $("#pills-websites").append(
+    '<div class="row home_screenshots_container">' +
+      list
+        .filter((v) => v.projectType == "Web")
+        .map(
+          (v, i) =>
+            `<div class= "home_web_div"> 
+  <img class="home_web_screen_shot" src="` +
+            v.imageAssets +
+            `"/>
+          <h5>` +
+            v.name +
+            `</h5>
+          <div style="display:flex">
+        ` +
+            v.technologies
+              .map(
+                (v, i) =>
+                  '<div class="home_web_screen_shot_label">' + v + "</div>"
+              )
+              .join("") +
+            `
+          </div>
+          <p style="color:grey">` +
+            v.shortDescription +
+            `</p>
+          <div class="row">
+            ` +
+            (v.gitHubLink != undefined
+              ? '<div class="col-sm"><a target="_blank" href="' +
+                v.gitHubLink +
+                '"><img src="public/assets/images/github.png" height="30" /></a></div>'
+              : "") +
+            (v.googleStoreLink != undefined
+              ? '<div class="col-sm"><a target="_blank" href="' +
+                v.googleStoreLink +
+                '"><img src="public/assets/images/available_google_play.png" width="90" height="30" /></a></div>'
+              : "") +
+            (v.appStoreLink != undefined
+              ? '<div class="col-sm"><a target="_blank" href="' +
+                v.appStoreLink +
+                '"><img src="public/assets/images/available_app_store.png" width="90"  height="30" /></a></div>'
+              : "") +
+            `
+          </div>
+          
+  </div>`
         )
         .join(" ") +
       "</div>"
