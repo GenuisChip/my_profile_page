@@ -5,7 +5,7 @@ let list = [
     imagesUrl: [],
     name: "3nuta",
     shortDescription:
-      "Install, launch, and manage all your Zoho applications with our new mobile app.",
+      "3anuta is a next-generation ordering application for micro-finance powered by creditor. It is a revolutionary platform developed with cutting edge technology that connects suppliers and Retailers to Buy, Sell and Earn, using the Earn Now Pay Later method.",
     technologies: ["Dart", "Flutter", "Android"],
     imageAssets: "public/assets/apps_screenshots/3nuta_app.png",
     googleStoreLink:
@@ -17,7 +17,7 @@ let list = [
     imagesUrl: [],
     name: "Logos",
     shortDescription:
-      "Install, launch, and manage all your Zoho applications with our new mobile app.",
+      "Help Logos members to find helpful and details information regarding session and surveys of Logos events",
     technologies: ["Dart", "Flutter", "iOS", "Android"],
     imageAssets: "public/assets/apps_screenshots/logos_app.png",
     appStoreLink:
@@ -31,7 +31,7 @@ let list = [
     imagesUrl: [],
     name: "mngm",
     shortDescription:
-      "Install, launch, and manage all your Zoho applications with our new mobile app.",
+      "mngm is a precious-metals platform focused on introducing global standard precious metals’ services to Egypt. mngm offers access to buy, sell, store, and utilize precious metals at multiples of 0.1 grams. Our aim is to democratize precious metals to all market participants through transparent, simple and innovative means.",
     technologies: ["Dart", "Flutter", "iOS", "Android"],
     imageAssets: "public/assets/apps_screenshots/mngm_app.png",
     googleStoreLink:
@@ -45,7 +45,7 @@ let list = [
     imagesUrl: [],
     name: "Africa",
     shortDescription:
-      "Install, launch, and manage all your Zoho applications with our new mobile app.",
+      "Explore Animals Photos, Videos and Information in Africa",
     technologies: ["SwiftUI", "Swift", "iOS"],
     imageAssets: "public/assets/apps_screenshots/africa_app.png",
     gitHubLink: "https://github.com/GenuisChip/SwiftUI-Africa-App",
@@ -55,8 +55,7 @@ let list = [
     projectType: "Mobile",
     imagesUrl: [],
     name: "Fruit",
-    shortDescription:
-      "Install, launch, and manage all your Zoho applications with our new mobile app.",
+    shortDescription: "Get More Information about Fruits.",
     technologies: ["SwiftUI", "Swift", "iOS"],
     imageAssets: "public/assets/apps_screenshots/fruit_app.png",
     gitHubLink: "https://github.com/GenuisChip/SwiftUI-Fruit-App",
