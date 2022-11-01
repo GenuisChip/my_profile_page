@@ -211,4 +211,12 @@ $(document).ready(function () {
         .join(" ") +
       "</div>"
   );
+
+  $("#contact-me-button").click(() => {
+    window.scrollTo(0, document.body.scrollHeight);
+  });
+  $("#check-my-work-button").click(() => {
+    let height = document.body.scrollHeight;
+    window.scrollTo(0, height > 4000 ? height / 4 : height / 3);
+  });
 });
